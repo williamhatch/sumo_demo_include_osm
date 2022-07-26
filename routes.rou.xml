@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-25 13:50:13 by Eclipse SUMO duarouter Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="F:\projects\streamlit\streamlit_book\sumo_demo1\2022-07-25-13-49-47\osm.net.xml"/>
+        <route-files value="F:\projects\streamlit\streamlit_book\sumo_demo1\2022-07-25-13-49-47\osm.ship.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ship_ship" vClass="ship"/>
+    <vehicle id="ship0" type="ship_ship" depart="0.00" departSpeed="max">
+        <route edges="237175230#0 -237175230#0"/>
+    </vehicle>
+    <vehicle id="ship2" type="ship_ship" depart="197.59" departSpeed="max">
+        <route edges="697970987 88806258#0 88806257"/>
+    </vehicle>
+    <vehicle id="ship3" type="ship_ship" depart="296.39" departSpeed="max">
+        <route edges="95918716 62381500#1 -237175230#1 -237175230#0"/>
+    </vehicle>
+    <vehicle id="ship6" type="ship_ship" depart="592.78" departSpeed="max">
+        <route edges="-237043958 -62381500#1 -62381500#0"/>
+    </vehicle>
+    <vehicle id="ship7" type="ship_ship" depart="691.58" departSpeed="max">
+        <route edges="237175230#0 237175230#1 237043958"/>
+    </vehicle>
+    <vehicle id="ship10" type="ship_ship" depart="987.97" departSpeed="max">
+        <route edges="697970987 88806258#0 88806257"/>
+    </vehicle>
+    <vehicle id="ship13" type="ship_ship" depart="1284.36" departSpeed="max">
+        <route edges="-237043958 -237175230#1 -237175230#0"/>
+    </vehicle>
+    <vehicle id="ship14" type="ship_ship" depart="1383.16" departSpeed="max">
+        <route edges="95918716 62381500#1 237043958"/>
+    </vehicle>
+    <vehicle id="ship15" type="ship_ship" depart="1481.96" departSpeed="max">
+        <route edges="697970987 88806258#0 88806257"/>
+    </vehicle>
+    <vehicle id="ship19" type="ship_ship" depart="1877.14" departSpeed="max">
+        <route edges="95918716 62381500#1 237043958"/>
+    </vehicle>
+    <vehicle id="ship22" type="ship_ship" depart="2173.53" departSpeed="max">
+        <route edges="-237043958 -62381500#1 -62381500#0"/>
+    </vehicle>
+    <vehicle id="ship23" type="ship_ship" depart="2272.33" departSpeed="max">
+        <route edges="-237043958 -62381500#1 -62381500#0"/>
+    </vehicle>
+    <vehicle id="ship26" type="ship_ship" depart="2568.72" departSpeed="max">
+        <route edges="-88806257 88806258#1"/>
+    </vehicle>
+    <vehicle id="ship27" type="ship_ship" depart="2667.52" departSpeed="max">
+        <route edges="237175230#0 237175230#1 237043958"/>
+    </vehicle>
+    <vehicle id="ship28" type="ship_ship" depart="2766.32" departSpeed="max">
+        <route edges="-88806257 88806257"/>
+    </vehicle>
+    <vehicle id="ship30" type="ship_ship" depart="2963.91" departSpeed="max">
+        <route edges="95918716 62381500#1 237043958"/>
+    </vehicle>
+    <vehicle id="ship35" type="ship_ship" depart="3457.90" departSpeed="max">
+        <route edges="-88806257 88806258#1"/>
+    </vehicle>
+    <vehicle id="ship36" type="ship_ship" depart="3556.69" departSpeed="max">
+        <route edges="95918716 -62381500#0"/>
+    </vehicle>
+</routes>
